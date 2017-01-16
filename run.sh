@@ -15,3 +15,4 @@ unzip -o $ZIP
 mv $APP-master $APP
 
 nginx
+
