@@ -14,5 +14,5 @@ ZIP_PATH="https://github.com/yankaili2006/anjia1/archive/master.zip"
 
 #mv $APP-master $APP
 
-nginx -g daemon off
+nginx
 
