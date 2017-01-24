@@ -14,4 +14,6 @@ RUN echo "Asia/Shanghai" >> /etc/timezone
 ADD nginx.conf /etc/nginx/nginx.conf
 ADD run.sh $WWW_HOME/run.sh
 
-CMD ["sh", "run.sh"]
+RUN /bin/sh -c $WWW_HOME/run.sh
+
+CMD ["nginx","-g","daemon off;"]

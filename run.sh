@@ -8,10 +8,10 @@ ZIP=$APP.zip
 
 ZIP_PATH="https://github.com/yankaili2006/anjia1/archive/master.zip"
 
-#wget $ZIP_PATH -O $ZIP
+wget $ZIP_PATH -O $ZIP
 
-#unzip -o $ZIP
+unzip -o $ZIP
 
-#mv $APP-master $APP
+mv $APP-master $APP
 
-nginx -g "daemon off;"
+#nginx -g "daemon off;"
