@@ -8,7 +8,7 @@ ZIP=$APP.zip
 
 ZIP_PATH="https://github.com/yankaili2006/anjia1/archive/master.zip"
 
-wget $ZIP_PATH -O $ZIP
+curl -o $ZIP $ZIP_PATH
 
 unzip -o $ZIP
 
